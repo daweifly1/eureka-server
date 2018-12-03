@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: false
+      server:
+        native:
+          search-locations: file:/root/jt_prop/config
+        prefix: /config

@@ -1,0 +1,8 @@
+spring:
+  boot:
+    admin:
+      context-path: /buadmin
+      discovery:
+        enabled: true
+        converter:
+          management-context-path: ${management.context-path}

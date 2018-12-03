@@ -1,0 +1,16 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://127.0.0.1:${server.port}/eureka/
+  server:
+    renewal-percent-threshold: 0.5
+    enable-self-preservation: true
+    eviction-interval-timer-in-ms: 20000
+    response-cache-update-interval-ms: 20000
+  instance:
+    prefer-ip-address: true
+    health-check-url: http://127.0.0.1:${server.port}${management.context-path}/health
+  dashboard:
+    path: /euadmin

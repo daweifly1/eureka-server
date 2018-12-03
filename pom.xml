@@ -5,7 +5,7 @@
 
     <groupId>yb.ecp.fast.infra</groupId>
     <artifactId>eureka-server</artifactId>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>eureka-server</name>
     <description>eureka server for fast platform</description>
@@ -22,14 +22,28 @@
         </dependency>
 
         <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-server</artifactId>
+        </dependency>
+        <!-- tag::zipkin-server[] -->
+        <dependency>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-server</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-autoconfigure-ui</artifactId>
+        </dependency>
+        <!-- end::zipkin-server -->
+        <dependency>
             <groupId>de.codecentric</groupId>
             <artifactId>spring-boot-admin-server</artifactId>
-            <version>1.5.6</version>
+            <version>1.5.7</version>
         </dependency>
         <dependency>
             <groupId>de.codecentric</groupId>
             <artifactId>spring-boot-admin-server-ui</artifactId>
-            <version>1.5.6</version>
+            <version>1.5.7</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
