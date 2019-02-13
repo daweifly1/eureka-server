@@ -11,4 +11,4 @@ spring:
 management:
   context-path: /cccc
 server:
-  port: 9000
+  port: 18001
