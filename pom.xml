@@ -6,6 +6,7 @@
     <groupId>yb.ecp.fast.infra</groupId>
     <artifactId>eureka-server</artifactId>
     <packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>
 
     <name>eureka-server</name>
     <description>eureka server for fast platform</description>
