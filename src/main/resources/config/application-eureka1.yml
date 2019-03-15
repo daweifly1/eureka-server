@@ -1,7 +1,7 @@
 eureka:
   client:
-    register-with-eureka: false
-    fetch-registry: false
+    register-with-eureka: true
+    fetch-registry: true
     service-url:
       defaultZone: http://peer2:18002/eureka/,http://peer3:18003/eureka/
   server:
