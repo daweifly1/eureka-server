@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: center-server
+  profiles:
+    active: native

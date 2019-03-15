@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: center-server
+  profiles:
+    active: peer3
+    include: admin,config,eureka3,zipkin
+  cloud:
+    inetutils:
+      preferred-networks:
+        10.100
+management:
+  context-path: /cccc
+server:
+  port: 18003
