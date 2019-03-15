@@ -11,8 +11,7 @@ spring:
           searchPaths: respo
           label: master
           username: tigerwer@126.com
-          password: wangyidan1
-#          //@git.password@
+          password: @git.password@
         peer2:
           search-locations: file:/root/jt_prop/config
         peer3:

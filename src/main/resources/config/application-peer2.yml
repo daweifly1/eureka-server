@@ -3,7 +3,7 @@ spring:
     name: center-server
   profiles:
     active: peer2
-    include: admin,config,eureka2,zipkin
+    include: eureka2
   cloud:
     inetutils:
       preferred-networks:

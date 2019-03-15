@@ -3,7 +3,7 @@ spring:
     name: center-server
   profiles:
     active: native
-    include: admin,config,eureka,zipkin
+    include: eureka
   cloud:
     inetutils:
       preferred-networks:
